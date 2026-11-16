@@ -1,0 +1,6 @@
+a=(10,11,23,45,67)
+print(a[0])
+print(type(a))
+a.append(78)
+print(a)
+print(type(a))

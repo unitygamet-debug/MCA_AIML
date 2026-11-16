@@ -1,0 +1,13 @@
+a=(1,2,3,4,56,78)
+print(a)
+print(type(a))
+l=list(a)
+print(l)
+print(type(l))
+l.append(100)
+print(l)
+print(type(l))
+a=tuple(l)
+print(a)
+print(type(a))
+#tuple are immutables but can be Overide with help of list function and remember original tuple is completely discarded
